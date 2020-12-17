@@ -9,6 +9,7 @@ public class FrontController {
 
     @GetMapping("/ping")
     public ResponseEntity<String> ping() {
+        System.out.println("First Debug :))");
         return ResponseEntity.ok("I am alive");
     }
 }
